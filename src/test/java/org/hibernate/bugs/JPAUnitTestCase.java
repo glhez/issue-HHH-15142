@@ -1,5 +1,9 @@
 package org.hibernate.bugs;
 
+import static org.assertj.core.api.Assertions.assertThat;
+
+import java.util.List;
+
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
@@ -9,12 +13,9 @@ import javax.persistence.criteria.CriteriaQuery;
 import javax.persistence.criteria.ParameterExpression;
 import javax.persistence.criteria.Root;
 
-import org.junit.Assert;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-
-import java.util.List;
 
 
 /**
@@ -66,7 +67,7 @@ public class JPAUnitTestCase {
 			query.setParameter(pattern, "%_1");
 			final List<Person> result = query.getResultList();
 
-			Assert.assertEquals(1,result.size());
+			assertThat(result).hasSize(1);
 		}
 
 
