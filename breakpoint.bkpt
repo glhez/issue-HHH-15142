@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<breakpoints>
+<breakpoint enabled="true" persistent="true" registered="true">
+<resource path="/test-case-template-hibernate-orm5/lib/binaries/hibernate-core-5.6.6.Final.jar" type="1"/>
+<marker charStart="1763" lineNumber="53" type="org.eclipse.jdt.debug.javaLineBreakpointMarker">
+<attrib name="charStart" value="1763"/>
+<attrib name="org.eclipse.jdt.debug.core.suspendPolicy" value="2"/>
+<attrib name="org.eclipse.jdt.debug.ui.JAVA_ELEMENT_HANDLE_ID" value="=test-case-template-hibernate-orm5/lib\/binaries\/hibernate-core-5.6.6.Final.jar&lt;org.hibernate.query.spi(QueryParameterBindingValidator.class[QueryParameterBindingValidator"/>
+<attrib name="charEnd" value="1802"/>
+<attrib name="org.eclipse.debug.core.enabled" value="true"/>
+<attrib name="message" value="Line breakpoint:QueryParameterBindingValidator [line: 53] - validate(Type, Object, TemporalType)"/>
+<attrib name="org.eclipse.jdt.debug.core.installCount" value="0"/>
+<attrib name="org.eclipse.debug.core.id" value="org.eclipse.jdt.debug"/>
+<attrib name="org.eclipse.jdt.debug.core.typeName" value="org.hibernate.query.spi.QueryParameterBindingValidator"/>
+<attrib name="org.eclipse.jdt.internal.core.JavaModelManager.handleId" value="=test-case-template-hibernate-orm5/lib\/binaries\/hibernate-core-5.6.6.Final.jar&lt;org.hibernate.query.spi(QueryParameterBindingValidator.class"/>
+<attrib name="workingset_name" value=""/>
+<attrib name="workingset_id" value="org.eclipse.debug.ui.breakpointWorkingSet"/>
+</marker>
+</breakpoint>
+</breakpoints>
